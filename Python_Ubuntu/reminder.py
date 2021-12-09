@@ -2,7 +2,7 @@ import time
 from pygame import mixer
 
 while True:
-	time.sleep(120)
+	time.sleep(10)
 		
 	print('Drink 200ml water!!')
 	mixer.init()
@@ -15,7 +15,7 @@ while True:
 			mixer.music.stop()
 			break
 
-	time.sleep(300)
+	time.sleep(10)
 		
 	print('Massage your eyes!!')
 	mixer.init()
@@ -28,7 +28,7 @@ while True:
 			mixer.music.stop()
 			break
 
-	time.sleep(600)
+	time.sleep(10)
 		
 	print('Do Some Physical Activity!!')
 	mixer.init()
